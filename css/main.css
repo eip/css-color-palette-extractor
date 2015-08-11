@@ -1,0 +1,88 @@
+body {
+  font-family: "Lucida Grande", "Segoe UI", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 4em;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+button {
+  font-size: 1em;
+  margin: .6em 0;
+  padding: .6em;
+}
+
+textarea {
+  font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;
+  font-size: .9em;
+  box-sizing: border-box;
+  width: 100%;
+  height: 20em;
+  padding: .3em;
+}
+
+.palette-head {
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+.palette-head input {
+  font: inherit;
+  width: 15em;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.palette {
+  margin-top: 2.5em;
+}
+
+.color {
+  display: inline-block;
+  height: 4.5em;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.color em {
+  font-size: .7em;
+  font-style: normal;
+  position: absolute;
+  top: -100em;
+  margin-top: -1.5em;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, .7);
+}
+
+.color:hover {
+  -webkit-transition: all .1s ease-in;
+  -moz-transition: all .1s ease-in;
+  -webkit-transform: scale(1.35);
+  -moz-transform: scale(1.35);
+  -ms-transform: scale(1.35);
+  -o-transform: scale(1.35);
+  transform: scale(1.35);
+}
+
+.color:hover em {
+  top: auto;
+}
+
+footer {
+  font-size: .8em;
+  margin-top: 3.5em;
+  color: #777;
+}
+
+footer a {
+  color: #777;
+}
