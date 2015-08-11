@@ -3878,7 +3878,7 @@ CSSParser.prototype.parseDefaultPropertyValue = function(token, aDecl, aAcceptPr
         var value = new jscsspVariable(kJscsspINHERIT_VALUE, aSheet);
         values.push(value);
         token = this.getToken(true, true);
-        break;
+        continue;
       }
     }
     else if (token.isSymbol("{")

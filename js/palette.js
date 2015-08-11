@@ -6,7 +6,7 @@ var Palette = {
     
     init: function(cssText) {
         var parser = new CSSParser();
-        var sheet = parser.parse(cssText, false, true);
+        var sheet = parser.parse(cssText, false, false);
         var colorsIndex = {};
         var rule;
         var declarations;
