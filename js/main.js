@@ -1,4 +1,4 @@
-/*global Palette: false, generateRandomCSS*/
+/*global Palette: false, generateRandomCSS: false*/
 function extractCSSColors() {
   'use strict';
   
